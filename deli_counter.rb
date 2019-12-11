@@ -1,7 +1,9 @@
 katz_deli = []
 
 def line(katz_deli)
+  
   position = []
+  
   if katz_deli.empty?
     puts "The line is currently empty."
   else
@@ -10,7 +12,7 @@ def line(katz_deli)
       position << "#{num}. #{customer}"
       num += 1
     end
-    puts "The line is currently: #{position.join(" ")}"
+     puts "The line is currently: #{position.join(" ")}"
   end
 end
 
