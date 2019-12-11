@@ -11,7 +11,7 @@ def line(katz_deli)
       position.push "#{num}. #{customer}"
       num += 1
     end
-     puts"The line is currently: "
+     puts"The line is currently: #{}"
   end
 end
 
