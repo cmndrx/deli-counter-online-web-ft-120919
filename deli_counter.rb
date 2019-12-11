@@ -25,4 +25,5 @@ def now_serving(katz_deli)
     puts ""
   else puts ""
     katz_deli.shift
+  end  
 end  
