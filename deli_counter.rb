@@ -8,5 +8,5 @@ def line(katz_deli)
     puts = ""
   else num = 1
     katz_deli.each do |customer|
-      position.push
+      position.push ""
 end  
