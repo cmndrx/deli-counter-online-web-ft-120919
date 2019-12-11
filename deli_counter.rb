@@ -20,4 +20,4 @@ def take_a_number(katz_deli, name)
   puts ""
 end
 
-def now_serving()
+def now_serving(katz_deli)
