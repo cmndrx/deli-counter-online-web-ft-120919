@@ -10,8 +10,7 @@ def line(katz_deli)
     katz_deli.each do |customer|
       position.push ""
       num += 1
+    end
+     puts""
   end
-   puts""
-  end
-  
 end  
