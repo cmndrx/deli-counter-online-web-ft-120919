@@ -1,16 +1,16 @@
 katz_deli = []
 
 def line(katz_deli)
-  line_positions = []
+  position = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else
     num = 1
     katz_deli.each do |customer|
-      line_positions << "#{num}. #{customer}"
+      position << "#{num}. #{customer}"
       num += 1
     end
-    puts "The line is currently: #{line_positions.join(" ")}"
+    puts "The line is currently: #{position.join(" ")}"
   end
 end
 
