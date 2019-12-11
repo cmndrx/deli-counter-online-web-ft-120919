@@ -8,7 +8,7 @@ def line(katz_deli)
     puts = "The line is currently empty."
   else num = 1
     katz_deli.each do |customer|
-      position.push "#{num}. #{}"
+      position.push "#{num}. #{customer}"
       num += 1
     end
      puts""
